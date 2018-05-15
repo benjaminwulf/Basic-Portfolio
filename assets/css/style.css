@@ -93,7 +93,21 @@ nav {
 }
 
 img.image {
-    border-radius: 8px;
-    width: 200px;
-    height: 200px;
+    border: 20px solid white;
+    /* border-radius: 50px; */
+    padding: 10px;
+    width: 260px;
+    height: 260px;
+    float: left;
+}
+
+p {
+    float: left 20%;
+    width: 90%;
+    padding: 20;
+    text-align: justify;
+}
+
+footer {
+    text-align: center;
 }
