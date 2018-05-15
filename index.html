@@ -1,32 +1,39 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
-<head>
-    <meta charset="UTF-8">
-    <title>Benjamin W Wulf</title>
-</head>
-
-<body>
-    <div>
-        <header>
-            <h1 id="myHeader">Benjamin W Wulf
-                <a href="index.html">About Me</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>
-            </h1>
+    <head>
+        <meta charset="UTF-8">
+        <title>Portfolio</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    </head>
+    
+    <body>
+        <header id="master">
+            <div class="container">
+                <a id="about-me" href="index.html">Benjamin W Wulf</a>
+                <nav>
+                        <a href="index.html">| About Me </a>
+                        <a href="portfolio.html">| Portfolio</a>
+                        <a href="contact.html">| Contact</a>
+                </nav>
+            </div>
         </header>
-    </div>
-    <div>
-        <h1 id="main-bio">About Me</h1>
-        <br>
-        <hr>
-        <br>
-        <img width="200" height="200" src="/Users/benjito/code/Basic-Portfolio/assets/images/bio_picture.png" alt="Benajamin's bio picture">
-        <p>
-            Benjamin's interests include writing, golf, auto racing, cats and comics. He has a self published book and graphic novel
-            on Comixology, both under the title
-            <em>Shell Gaming Dominion</em>. At one point Benjamin was a hobby mechanic and weekend drag racer. Now he is a part-time
-            youth golf coach and enjoys the game of golf whenever possible.
-        </p>
-    </div>
+        
+        <div id="main-container" class="container">
+            <section class="main-section">
+                <h1>About Me</h1>
+                <img src="assets/images/bio_picture.png" class="image" alt="Benji's Bio Picture">
+                
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum luctus felis, ac rhoncus nunc porttitor condimentum. Mauris sit amet dolor eu elit varius varius facilisis id arcu. Proin vel dui massa. Nunc rhoncus fringilla pharetra. Vestibulum bibendum consectetur euismod. Proin commodo purus vitae sollicitudin consectetur.</p>
+                
+                <p>Donec vehicula lacus at leo feugiat lacinia. In et ex ultrices, ultrices neque non, pretium odio. Nunc id eros iaculis, pulvinar quam eget, egestas mauris.</p>
+                
+                <p>Suspendisse dictum, arcu at convallis faucibus, quam sapien tincidunt nunc, sit amet egestas nibh tortor et mi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+            </section>
+            <footer>
+                <div class="container">
+                    Copyright &copy;
+                </div>
+            </footer>
+        </div>
+    </body>
 </html>
