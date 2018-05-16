@@ -1,7 +1,6 @@
 body {
     position:relative;
     margin:0 auto;
-    width:960px;
     background-image: url("../images/bg_gray.jpg");
     background-repeat: no-repeat;
     background-position: right top;
@@ -12,22 +11,23 @@ body {
     font-size: 18px;
     line-height: 34px;
     color: #777;
-    padding: 20px;
 }
 
 * {
     box-sizing: border-box;
-    /* margin:0; */
-    /* padding:0; */
 }
 
 /* General */
 .container {
     width: 100%;
-    max-width: 960;
     margin: 0 auto;
     clear: both;
     background-color: #fff;
+}
+
+#main-container {
+    width: 100%;
+    max-width: 960px;
 }
 
 h1,
@@ -60,7 +60,6 @@ h1 {
 
 #master {
     width: 100%;
-    max-width: 960px;
     height: 80px;
     background-color: #fff;
 }
